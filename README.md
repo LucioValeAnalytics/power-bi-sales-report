@@ -1,72 +1,137 @@
 # Power BI Sales Report
 
-Dashboard executivo desenvolvido em Power BI para análise de **vendas, performance e rentabilidade**, como parte do Desafio de Projeto da DIO.
+## 📊 Desafio de Projeto — DIO
 
-## 📊 Visão geral
+Atualização de um relatório desenvolvido em Power BI com foco em **Experiência do Usuário (UX)**, organização visual, navegação, segmentação dos dados e análise de desempenho e rentabilidade.
 
-O projeto foi estruturado em três páginas principais:
+O projeto foi desenvolvido a partir do relatório apresentado durante o curso, aplicando melhorias de **posicionamento, contraste, proporção, hierarquia visual e interatividade**.
+
+---
+
+## 🎯 Objetivo
+
+Modificar e aprimorar o relatório original considerando os seguintes princípios:
+
+- Posicionamento dos elementos;
+- Contraste visual;
+- Proporção áurea como referência de composição;
+- Segmentação dos dados;
+- Experiência de navegação do usuário;
+- Clareza na apresentação dos indicadores.
+
+A proposta foi utilizar esses princípios como orientação, mantendo liberdade para adaptar e quebrar regras quando isso contribuísse para uma melhor experiência visual e analítica.
+
+---
+
+## 📑 Estrutura do relatório
+
+O relatório é composto por **3 páginas principais**:
 
 ### 1. Overview
-Visão executiva dos principais indicadores comerciais, permitindo acompanhar:
+
+Visão executiva dos principais indicadores e resultados de vendas.
+
+Principais elementos:
 
 - Sales
 - Profit
 - Units Sold
 - Profit Margin
-- Contribuição das vendas
-- Participação acumulada
-- Evolução mensal
-- Vendas por produto
-- Vendas por trimestre
+- Sales Contribution & Cumulative Share
+- Sales & Profit Margin — Monthly Trend
+- Sales by Product / Segment
+- Sales by Quarter
 
 ![Overview](screenshots/01-overview.png)
 
+---
+
 ### 2. Performance
-Análise da performance comercial e dos principais direcionadores de vendas.
 
-Principais análises:
+Página dedicada à análise de desempenho comercial e aos principais direcionadores das vendas.
 
-- Decomposição das vendas
-- Sales × Profit Margin
-- Performance por segmento, produto e país
-- Contribuição dos segmentos para as vendas
-- Análise hierárquica dos resultados
+Principais elementos:
+
+- KPIs de Sales, Profit, Units Sold e Profit Margin;
+- Sales Decomposition;
+- Análise de Sales × Profit Margin;
+- Análise por Segment, Product e Country;
+- Sales Contribution;
+- Árvore hierárquica para exploração dos dados.
 
 ![Performance](screenshots/02-performance.png)
 
+---
+
 ### 3. Profitability
-Análise focada em rentabilidade e seus principais drivers.
 
-Principais análises:
+Página dedicada à análise de rentabilidade e seus principais fatores.
 
-- Profit & Profit Margin por mês
-- Contribuição dos segmentos para o lucro
-- Profit por produto
-- Drivers de rentabilidade por segmento, produto e país
-- Evolução da margem ao longo do período
+Principais elementos:
+
+- Profit & Profit Margin — Monthly Trend;
+- Profit Contribution by Segment;
+- Profitability Drivers;
+- Profit by Product;
+- Análise por Segment, Product e Country.
 
 ![Profitability](screenshots/03-profitability.png)
 
-## 🛠️ Tecnologias e recursos
+---
+
+## 🧭 Navegação e experiência do usuário
+
+O relatório possui menus de navegação entre as três páginas:
+
+**Overview → Performance → Profitability**
+
+Também foram implementados:
+
+- Botões de navegação;
+- Estados visuais dos botões;
+- Filtros acessíveis por ícone;
+- Segmentação por período e dimensões de análise;
+- Interações entre os visuais;
+- Hierarquia visual para facilitar a leitura dos KPIs e gráficos.
+
+---
+
+## 🎨 Design
+
+A identidade visual foi desenvolvida com foco em:
+
+- Fundo escuro;
+- Contraste entre elementos;
+- Hierarquia de informação;
+- Consistência entre páginas;
+- Organização em grid;
+- Destaque visual para indicadores positivos e negativos;
+- Padronização de títulos, cartões e gráficos.
+
+A proporção áurea foi utilizada como **referência de composição**, sem tratá-la como uma regra rígida.
+
+---
+
+## 🛠️ Ferramentas e recursos
 
 - Power BI
-- Power Query
 - DAX
+- Power Query
 - Modelagem de dados
 - KPIs
-- Drill-down
-- Segmentações e filtros
+- Segmentações
+- Filtros
 - Navegação entre páginas
-- Tooltips
-- Visualizações interativas
+- Árvore hierárquica
+- Treemap
+- Gráfico de dispersão
+- Gráfico de cascata
+- Gráficos combinados
+- Interações entre visuais
 
-## 🎯 Objetivo
+---
 
-Construir um dashboard executivo capaz de transformar dados de vendas em informações para **análise de desempenho, identificação de oportunidades e acompanhamento da rentabilidade**.
-
-O projeto também buscou aplicar princípios de organização visual, hierarquia de informação e consistência de identidade visual para facilitar a leitura dos indicadores.
-
-## 📁 Estrutura do projeto
+## 📁 Estrutura do repositório
 
 ```text
 power-bi-sales-report/
