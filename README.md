@@ -1,8 +1,8 @@
 # Power BI Sales Report
 
-## 📊 Desafio de Projeto — DIO
+## 📊 Desafio de Projeto
 
-Atualização de um relatório desenvolvido em Power BI com foco em **Experiência do Usuário (UX)**, organização visual, navegação, segmentação dos dados e análise de desempenho e rentabilidade.
+Relatório desenvolvido em Power BI com foco em **Experiência do Usuário (UX)**, organização visual, navegação, segmentação dos dados e análise de desempenho e rentabilidade.
 
 O projeto foi desenvolvido a partir do relatório apresentado durante o curso, aplicando melhorias de **posicionamento, contraste, proporção, hierarquia visual e interatividade**.
 
